@@ -1,6 +1,6 @@
 ## Syllabus
 
-The syllabus follows closely chapters of the [lecture notes](https://www.uio.no/studier/emner/matnat/astro/AST4310/h20/pensumliste/iart.pdf), except the last point:
+The syllabus follows closely chapters of the [lecture notes](https://www.uio.no/studier/emner/matnat/astro/AST4310/h21/pensumliste/iart.pdf), except the last point:
 
 1. Radiation quantities
 2. Radiation and matter in equilibrium
