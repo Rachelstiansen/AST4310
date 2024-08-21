@@ -9,6 +9,9 @@ These pages contain a description of AST4310 and additional resources. The pages
 - See separate page for [syllabus and literature](literature.md)
 - The [course's github repository](https://github.com/tiagopereira/ast4310) contains all project notebooks, and will be populated with additional resources as the semester progresses
 
+## Communication
+- If you want to place questions about any aspect of AST4310, please use the Discourse forum [https://astro-discourse.uio.no/c/AST4310-24H](https://astro-discourse.uio.no/c/AST4310-24H) (UiO login)
+
 ## Assessment
 
 The final grade is determined by an assessment of three projects (50% of grade), and an oral exam (50% of grade). The following table lists deadlines for handing in each project, how much each project weighs in the final grade, and the topic of each project. More details can be found under [projects](projects.md). 
