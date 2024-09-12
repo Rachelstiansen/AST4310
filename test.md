@@ -1,1 +1,0 @@
-Heihei, funker dette?
