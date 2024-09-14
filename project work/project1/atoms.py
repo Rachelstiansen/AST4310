@@ -131,7 +131,7 @@ class Atom:
         """
         return (self.compute_excitation(temperature) * self.compute_ionisation(temperature, electron_pressure)[:, numpy.newaxis])
 
-    def plot_payne(self, temperature, electron_pressure, excitation = False):
+    def plot_payne(self, temperature, electron_pressure):
         """
         Plots the Payne curves for the current atom.
         
@@ -143,10 +143,7 @@ class Atom:
             Electron pressure in units of Pa or equivalent.
         """
         # calculate population (relative) for a given temperature and pressure
-        if excitation: 
-            pops = self.compute_populations(temperature, electron_pressure)
-        else: 
-            pops = self.compute_ionisation(temperature, electron_pressure)
+        pops = self.compute_populations(temperature, electron_pressure)
             
         fig, ax = plt.subplots()
         ax.plot(numpy.tile(temperature, (self.n_stages, 1)).T, pops[:, 0].T, "b-") # temp vs pop of ground state of all ionization stages
